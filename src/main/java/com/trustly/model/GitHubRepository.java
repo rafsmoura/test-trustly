@@ -12,6 +12,7 @@ public class GitHubRepository {
 	Long numberOfFiles = 0l;
 	Long numberOfLines = 0l;
 	List<FileType> files = new ArrayList<>();
+	List<HttpError> errors = new ArrayList<>();
 			
 	public GitHubRepository(String url) {
 		super();
@@ -59,6 +60,14 @@ public class GitHubRepository {
 	}
 	public void setFiles(List<FileType> files) {
 		this.files = files;
+	}
+
+	public List<HttpError> getErrors() {
+		return errors;
+	}
+
+	public void setErrors(List<HttpError> errors) {
+		this.errors = errors;
 	}
 	
 	
