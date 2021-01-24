@@ -1,4 +1,4 @@
-package com.trust.comunication;
+package com.trustly.comunication;
 
 public class GitHubRepositoryRequest {
 	

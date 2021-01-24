@@ -8,7 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 
-import com.trust.comunication.GitHubRepositoryRequest;
+import com.trustly.comunication.GitHubRepositoryRequest;
 import com.trustly.model.FileType;
 import com.trustly.model.GitHubRepository;
 import com.trustly.model.HttpError;

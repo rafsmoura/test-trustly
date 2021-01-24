@@ -2,7 +2,7 @@ package com.trustly.controller;
 
 import org.springframework.http.ResponseEntity;
 
-import com.trust.comunication.GitHubRepositoryRequest;
+import com.trustly.comunication.GitHubRepositoryRequest;
 import com.trustly.model.GitHubRepository;
 
 public interface MainController {

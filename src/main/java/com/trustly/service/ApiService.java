@@ -1,6 +1,6 @@
 package com.trustly.service;
 
-import com.trust.comunication.GitHubRepositoryRequest;
+import com.trustly.comunication.GitHubRepositoryRequest;
 import com.trustly.model.GitHubRepository;
 
 public interface ApiService {
